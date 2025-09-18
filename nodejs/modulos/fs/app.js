@@ -1,4 +1,6 @@
-const fs = require ('fs');
+//const = require('fs'); // Sintaxe CommonJS
+
+import fs from 'fs';
 fs.readFile('example.txt', 'utf-8', (erro, conteudo_do_arquivo) => {
     if (erro) {
         console.log('Erro ao ler o arquivo', erro);

@@ -1,4 +1,5 @@
-const funcoesMatematicas = require('./funcoes_matematicas');
+//const funcoesMatematicas = require('./funcoes_matematicas');
+import * as funcoesMatematicas from './funcoes_matematicas.js';
 
 // Exemplo de uso das funções do módulo
 const resultadoSoma = funcoesMatematicas.soma(5, 3);
