@@ -13,7 +13,7 @@ const server = http.createServer((request, response) => {
     //roteamento básico
     if (url === "/") {
         response.statusCode = 200; //OK
-        response.end ("<h1>Página Inicial</h1>");
+        response.end("<h1>Página Inicial</h1>");
     }
     else if (url === "/sobre" && method === "GET") {
         response.statusCode = 200; //OK
