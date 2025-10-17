@@ -12,6 +12,6 @@ module.exports = {
       faixaEtaria = "idoso";
     }
 
-      return `Olá, ${nome}, para os íntimos, ${apelido}! Você tem ${idade}, logo, você é um(a) ${faixaEtaria}.`;
+      return `Olá, ${nome}, para os íntimos, ${apelido}! Você tem ${idade} anos, logo, você é um(a) ${faixaEtaria}.`;
   }
 };
