@@ -22,8 +22,8 @@ const produtosRoutes = require('./routes/produtos');
 app.use('/produtos', produtosRoutes);
 
 //nova rota: clientes
-const clientesRoutes = require('./routes/clientes');
-app.use('/clientes', clientesRoutes);
+/*const clientesRoutes = require('./routes/clientes');
+app.use('/clientes', clientesRoutes);*/
 
 // Servidor
 app.listen(port, () => {
