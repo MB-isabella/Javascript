@@ -16,6 +16,6 @@ module.exports = {
     cadastrar: (req, res) => {
         const {produto, id, preco, descricao, quantidade} = req.body;
         const mensagemCad = produtosModel.gerarMensagemCadProd(produto, id, preco, descricao, quantidade);
-        res.send(`<h4>${mensagemCad}</h4>`);
+        res.send(`<h1>${mensagemCad}</h1>`);
       }
 };
